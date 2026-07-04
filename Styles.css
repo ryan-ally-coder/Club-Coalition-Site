@@ -1,3 +1,7 @@
+body{
+    background-color: #dcb3b3;
+}
+
 h1{
     text-align: center;
     color: #000000;
@@ -25,12 +29,14 @@ p{
     outline: none;
     font-size: 16px;
     width: 100%;
+    background-color: transparent;
 }
 .AddClubButton{
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
+    border: 1px solid #000000;
     padding: 6px 12px;
 }
 .access{
@@ -53,10 +59,36 @@ p{
     flex-direction: row;
     flex-grow: 1;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style: none;
 }
-.math-club{
-    border: 3px solid black;
-    padding: 10px;
+.club-card{
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 5px;
+}
+.logo{
+    width:100px;
+    height:auto;
+}
+.carousel-container{
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    border-radius: 100px;
+}
+.logo-container{
+    justify-content: space-around;
+    display: flex;
+    background-color: #7f7b7b;
+    padding: 20px;
+    min-width: 100%;
+    flex-shrink: 0;
+    animation: marqueeScroll 15s linear infinite;
+}
+@keyframes marqueeScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
 }
