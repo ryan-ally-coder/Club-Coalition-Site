@@ -1,7 +1,62 @@
+h1{
+    text-align: center;
+    color: #000000;
+}
+p{
+    text-align: center;
+    color: #000000;
+}
+.searchBarContainer{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 6px 12px;
+
+}
+.search-icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.searchBarContainer input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+}
+.AddClubButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding: 6px 12px;
+}
+.access{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-row{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
 .clubs ul{
     display: flex;
     flex-direction: row;
     flex-grow: 1;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    list-style: none;
+}
+.math-club{
+    border: 3px solid black;
+    padding: 10px;
 }
