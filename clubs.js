@@ -1,26 +1,25 @@
 // Centralized Club Registry
 const CLUBS_DATA = {
-  "robotics": {
-    id: "robotics",
-    name: "Robotics & Automation Club",
-    supervisor: "Mr. Davis",
-    room: "Room 204",
-    classCode: "xyz1234",
-    description: "Build, program, and compete with VEX robotics teams across the region.",
-    // Meeting schedule configuration
-    meetingDayOfWeek: 4, // 0 = Sunday, 1 = Monday, ..., 4 = Thursday
-    meetingTime: "15:30", // 3:30 PM
-    durationMinutes: 60
+  "math": {
+    id: "math",
+    name: "Math Club",
+    supervisor: "Mr. Johnson",
+    room: "Room 101",
+    classCode: "math123",
+    description: "Explore advanced mathematical concepts and problem-solving techniques.",
+    meetingDayOfWeek: 1, // Monday
+    meetingTime: "11:00 AM",
+    durationMinutes: 45
   },
-  "coding": {
-    id: "coding",
-    name: "Coding Club",
+  "arts": {
+    id: "arts",
+    name: "Arts Club",
     supervisor: "Ms. Patel",
     room: "Lab 102",
     classCode: "abc5678",
     description: "Learn web development, game design, and competitive algorithm challenges.",
-    meetingDayOfWeek: 2, // Tuesday
-    meetingTime: "15:15",
+    meetingDayOfWeek: 3, // Tuesday
+    meetingTime: "12:00 PM",
     durationMinutes: 45
   },
   "science": {
@@ -31,7 +30,18 @@ const CLUBS_DATA = {
     classCode: "sci9912",
     description: "Explore biology, chemistry, and physics through hands-on experiments and science fair projects.",
     meetingDayOfWeek: 3, // 3 = Wednesday
-    meetingTime: "15:30", // 3:30 PM
+    meetingTime: "11:00 AM", // 3:30 PM
     durationMinutes: 60
-  }
+  },
+    "dance": {
+    id: "dance",
+    name: "Dance Club",
+    supervisor: "Ms. Garcia",
+    room: "Gym 101",
+    classCode: "dance456",
+    description: "Learn various dance styles and choreograph performances.",
+    meetingDayOfWeek: 4, // Thursday
+    meetingTime: "3:00 PM",
+    durationMinutes: 60
+  },
 };

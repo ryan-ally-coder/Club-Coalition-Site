@@ -1,25 +1,56 @@
 document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchBar');
     const clubCards = document.querySelectorAll('.club-card');
+    const searchContainer = document.querySelector('.searchBarContainer');
+    const clubsContainer = document.querySelector('.clubs');
 
-    searchInput.addEventListener('input', (e) => {
-        const searchTerm = e.target.value.toLowerCase().trim();
+    if (!searchInput) return;
+
+    // 1. Create Clear ("X") Button
+    const clearBtn = document.createElement('button');
+    clearBtn.innerHTML = '✖';
+    clearBtn.type = 'button';
+    clearBtn.ariaLabel = 'Clear search';
+    clearBtn.style.cssText = "background: none; border: none; cursor: pointer; color: #718096; font-size: 14px; padding: 0 8px; display: none;";
+    searchContainer.appendChild(clearBtn);
+
+    // 2. Create "No Results Found" Message
+    const noResultsMsg = document.createElement('div');
+    noResultsMsg.textContent = 'No clubs found matching your search.';
+    noResultsMsg.style.cssText = "text-align: center; color: #718096; font-size: 16px; margin: 30px 0; display: none; font-weight: 500;";
+    clubsContainer.appendChild(noResultsMsg);
+
+    // Search Logic Function
+    function performSearch() {
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        let visibleCount = 0;
+
+        // Toggle clear button visibility
+        clearBtn.style.display = searchTerm ? 'block' : 'none';
 
         clubCards.forEach(card => {
-            // Get all text content inside the card (e.g., club titles or descriptions)
             const cardText = card.textContent.toLowerCase();
-            // Get the class names of the card (e.g., "club-card math-club")
             const cardClasses = card.className.toLowerCase();
-
-            // Check if search query matches either the card's text or its classes
             const isMatch = cardText.includes(searchTerm) || cardClasses.includes(searchTerm);
 
-            // Show or hide the card based on match status
             if (isMatch) {
-                card.style.display = ''; // Resets to default CSS display (flex/list-item)
+                card.style.display = '';
+                visibleCount++;
             } else {
-                card.style.display = 'none'; // Hides unmatched cards
+                card.style.display = 'none';
             }
         });
+
+        // Toggle "No Results" message
+        noResultsMsg.style.display = (visibleCount === 0) ? 'block' : 'none';
+    }
+
+    // Event Listeners
+    searchInput.addEventListener('input', performSearch);
+
+    clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        performSearch();
+        searchInput.focus();
     });
 });
