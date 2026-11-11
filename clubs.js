@@ -1,6 +1,6 @@
 // Centralized Club Registry
 const CLUBS_DATA = {
-  "sports": {
+  "Girls Jr. Basketball": {
     id: "sports",
     name: "Girls Jr. Basketball",
     supervisor: "Marchildon, Power, Cargo-Froome, Sami Mikiluk",
@@ -11,7 +11,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Girls Sr. Basketball": {
     id: "sports",
     name: "Girls Sr. Basketball",
     supervisor: "Marchildon, Power, Cargo-Froome, Sami Mikiluk",
@@ -22,7 +22,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Varsity Girls Field Hockey": {
     id: "sports",
     name: "Varsity Girls Field Hockey",
     supervisor: "Hamilton",
@@ -33,7 +33,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Varsity Boys Soccer": {
     id: "sports",
     name: "Varsity Boys Soccer",
     supervisor: "Landriault, Garvey, Consultant: Carr",
@@ -44,7 +44,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Boys Jr. Volleyball": {
     id: "sports",
     name: "Boys Jr. Volleyball",
     supervisor: "MacGregor",
@@ -55,7 +55,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Boys Sr. Volleyball": {
     id: "sports",
     name: "Boys Sr. Volleyball",
     supervisor: "Shortt",
@@ -66,7 +66,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Tennis": {
     id: "sports",
     name: "Tennis",
     supervisor: "Hodge, Kleist",
@@ -77,7 +77,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Cross Country": {
     id: "sports",
     name: "Cross Country",
     supervisor: "Norris",
@@ -88,7 +88,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Golf": {
     id: "sports",
     name: "Golf",
     supervisor: "Chorley",
@@ -99,7 +99,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Girls Jr. Volleyball": {
     id: "sports",
     name: "Girls Jr. Volleyball",
     supervisor: "MacGregor/Pinkney",
@@ -110,7 +110,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Girls Sr. Volleyball": {
     id: "sports",
     name: "Girls Sr. Volleyball",
     supervisor: "MacGregor/Pinkney",
@@ -121,7 +121,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Girls Ice Hockey": {
     id: "sports",
     name: "Girls Ice Hockey",
     supervisor: "McKloskey/Burford",
@@ -132,7 +132,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Boys Jr. Basketball": {
     id: "sports",
     name: "Boys Jr.Basketball",
     supervisor: "Mikulik",
@@ -143,7 +143,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Boys Sr. Basketball": {
     id: "sports",
     name: "Boys Sr. Basketball",
     supervisor: "Hamilton",
@@ -154,7 +154,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Badminton": {
     id: "sports",
     name: "Badminton",
     supervisor: "N/A",
@@ -165,7 +165,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Varsity Girls Soccer": {
     id: "sports",
     name: "Varsity Girls Soccer",
     supervisor: "N/A",
@@ -176,7 +176,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Varsity Girls Field Lacrosse": {
     id: "sports",
     name: "Varsity Girls Field Lacrosse",
     supervisor: "N/A",
@@ -187,7 +187,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Varsity Boys Field Lacrosse": {
     id: "sports",
     name: "Varsity Boys Field Lacrosse",
     supervisor: "N/A",
@@ -198,7 +198,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Ultimate Frisbee": {
     id: "sports",
     name: "Ultimate Frisbee",
     supervisor: "N/A",
@@ -209,7 +209,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Track and Field": {
     id: "sports",
     name: "Track and Field",
     supervisor: "N/A",
@@ -220,7 +220,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Squash": {
     id: "sports",
     name: "Squash",
     supervisor: "Pinkney",
@@ -231,7 +231,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "E-Sports": {
     id: "sports",
     name: "E-Sports",
     supervisor: "Gunn, Pinizzotto, Mackintosh",
@@ -242,7 +242,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Intramurals": {
     id: "sports",
     name: "Intramurals",
     supervisor: "Hamilton, Lawler",
@@ -253,7 +253,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "sports": {
+  "Fitness Club": {
     id: "sports",
     name: "Fitness Club",
     supervisor: "Hodge",
@@ -264,7 +264,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Arts": {
+  "Coffee House (Music)": {
     id: "arts",
     name: "Coffee House (Music)",
     supervisor: "Hodge",
@@ -275,18 +275,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Arts": {
-    id: "arts",
-    name: "Coffee House (Music)",
-    supervisor: "Hodge",
-    room: "N/A", // idk yet
-    classCode: "sports456",
-    description: "Coffee house for students of any grade.",
-    meetingDayOfWeek: 1, // Idk yet
-    meetingTime: "11:00 AM", // Idk yet
-    durationMinutes: 45 // Idk yet
-  },
-  "Service": {
+  "Eco-team": {
     id: "service",
     name: "Eco-team",
     supervisor: "N/A",
@@ -297,7 +286,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Arts": {
+  "Year Book Club": {
     id: "arts",
     name: "Year Book Club",
     supervisor: "N/A",
@@ -308,7 +297,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Service": {
+  "Breakfast Club": {
     id: "service",
     name: "Breakfast Club",
     supervisor: "Kleist, Sabatine, Adam",
@@ -319,7 +308,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Arts": {
+  "Cookie Club": {
     id: "arts",
     name: "Cookie Club",
     supervisor: "Gunn",
@@ -330,7 +319,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Academic": {
+  "Learning Commons Club": {
     id: "academic",
     name: "Learning Commons Club",
     supervisor: "Llyod",
@@ -341,7 +330,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Hobby": {
+  "D and D/Magic the Gathering Club": {
     id: "hobby",
     name: "D and D/Magic the Gathering Club",
     supervisor: "Gunn",
@@ -352,7 +341,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Service": {
+  "GSA": {
     id: "service",
     name: "GSA",
     supervisor: "N/A",
@@ -363,7 +352,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Service": {
+  "Link Crew": {
     id: "service",
     name: "Link Crew",
     supervisor: "Power, Lloyd, Will, Clement",
@@ -374,7 +363,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Service": {
+  "Student Union": {
     id: "service",
     name: "Student Union",
     supervisor: "Marchildon, Llyod",
@@ -385,7 +374,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Hobby": {
+  "Video Games Club": {
     id: "hobby",
     name: "Video Games Club",
     supervisor: "Mackintosh, Pinizzotto",
@@ -396,7 +385,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Arts": {
+  "Art Club": {
     id: "arts",
     name: "Art Club",
     supervisor: "N/A",
@@ -407,7 +396,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Arts": {
+  "Band/Honour Band": {
     id: "arts",
     name: "Band/Honour Band",
     supervisor: "Bibby",
@@ -418,7 +407,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Arts": {
+  "Choir": {
     id: "arts",
     name: "Choir",
     supervisor: "Bibby",
@@ -429,7 +418,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Arts": {
+  "Drama": {
     id: "arts",
     name: "Drama",
     supervisor: "Cargo-Froome",
@@ -440,7 +429,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Sports": {
+  "Chess Club": {
     id: "sports",
     name: "Chess Club",
     supervisor: "Heaslip",
@@ -451,7 +440,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Academic": {
+  "Robotics Club": {
     id: "academic",
     name: "Robotics Club",
     supervisor: "Pinizzotto",
@@ -462,7 +451,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Academic": {
+  "DECA (Business)": {
     id: "academic",
     name: "DECA (Business)",
     supervisor: "Starrett",
@@ -473,7 +462,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Academic": {
+  "HOSA": {
     id: "academic",
     name: "HOSA",
     supervisor: "Zooey",
@@ -484,7 +473,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Academic": {
+  "Skills Ontario": {
     id: "academic",
     name: "Skills Ontario",
     supervisor: "Lucko, Macintosh",
@@ -495,7 +484,7 @@ const CLUBS_DATA = {
     meetingTime: "11:00 AM", // Idk yet
     durationMinutes: 45 // Idk yet
   },
-  "Service": {
+  "Diversity Club": {
     id: "service",
     name: "Diversity Club",
     supervisor: "N/A",
